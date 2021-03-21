@@ -1,6 +1,7 @@
 :root{ 
---verde:    #5B7F66;
- 
+--color1: #5A2F82;
+--color2:  #e01e79; 
+--color3: #e2c625;
 }
 :root{
 --fuente2: 'BioRhyme', serif;;

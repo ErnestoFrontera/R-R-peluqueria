@@ -1,5 +1,5 @@
 .main{
-    background-color:#FFF;
+     
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -17,7 +17,7 @@
         
     }
     .article{
-        background-color: rgb(155, 149, 150);
+        background-color: #fff;
         position: relative;
         width: 200px;
         margin: 5px;
@@ -37,20 +37,23 @@
          
     }
     h4{
-        background-color:#aa9259;
+        background-color:var(--color1);
         padding: 5px;
         display: block;
         color:#fff;
         font-weight: 700;
         position: relative;
         margin-bottom: 5px;
+        text-align: center;    
+    }
+    .nosotros{
+        background:#fff;
         text-align: center;
-
-
-         
-        
-
-        
+        font-family: var(--fuente2);
+        color: var(--color2);
+    }
+    .hr{
+        color: var(--color1);
     }
 
 .mapa{
@@ -63,6 +66,8 @@
 @media only screen and (max-device-width: 700px){
     .main, .imagen, .articulo{
         display: block;
+        padding: 10px auto;
+        
     }
 
     .imagen{
@@ -75,13 +80,17 @@
     }
 
     .articulo {
-        padding: 10px 0;
+        padding: 10px 0px;
     }
 
     .article{
         width: 95%;
-        margin:5x auto 10px auto;
+        margin:5px 5px 5px 5px;
         display: block;
+        height: 250px;
+    }
+    h4{
+        text-align: center;
     }
 
 }

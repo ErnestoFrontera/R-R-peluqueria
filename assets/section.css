@@ -9,32 +9,40 @@
 }
 p{
    margin: 1px auto 1px;
-   font-family: var(--fuente2);
-   font-size: 1.5em;
-   
-    
-   
+   font-family: var(--fuente2);     
 }
 #a{  
-    color:#fff; 
-    font-family: var(--fuente2);   
-    
+    color: var(--color2);
+    font-family: var(--fuente2);
+    font-size: 2em;       
 }    
 #b{
-    color: var(--verde);
+    color: var(--color1);
     font-size: 2em;
-     border-bottom: 3px solid;
-     border-top: 3px solid;
-     text-shadow: 0 0 2px rgba(255, 255, 255, 0.5) ; 
-	-webkit-text-shadow: 0 0 2px rgba(255, 255, 255, 0.5) ; 
-	-moz-text-shadow: 0 0 2px rgba(255, 255, 255, 0.5) ; 
-
+    border-bottom: 3px solid;
+    border-top: 3px solid;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.5) ; 
+    -webkit-text-shadow: 0 0 2px rgba(255, 255, 255, 0.5) ; 
+	  -moz-text-shadow: 0 0 2px rgba(255, 255, 255, 0.5) ; 
 }
 #c{
-    color: #fff;
+    color: var(--color2);
     font-family: var(--fuente2);  
-    font-size: 2em;
-    
-    
+    font-size: 2em;    
 }
- 
+@media only screen and (max-device-width: 700px){
+  .section {
+    margin-left: 70px;
+  }
+  #a{
+    font-size: 1em;
+  }
+  #b{
+    font-size: 1em;
+  }
+  #c{
+    font-size: 1em;
+  }
+    
+   
+}
