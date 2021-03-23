@@ -1,15 +1,18 @@
 .footer{
-    background-color: var(--color1);
+    background-color: var(--colorprimario);
     width: 100%;
-    height: auto;
-     
-    
-    
+    height: auto; 
+    margin-top: 40px;
 }
 p{
     color: #fff;
     text-align: center;
     padding: 5px;
-    font-size: var(--fuente2);
-   
+    font-size: var(--fuente2);   
+}
+@media only screen and (max-device-width: 700px){
+.footer{
+    margin-top: 20px;
+}
+
 }

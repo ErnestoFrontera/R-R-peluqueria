@@ -1,9 +1,14 @@
 :root{ 
---color1: #5A2F82;
---color2:  #e01e79; 
---color3: #e2c625;
+--colorprimario: #ff007f;
+--colorsecundario:#FF409F;   
+--colorbackground:#fff5fa;
+--coloriconos:#FFC2E0;
+--colorheader:#300018;
+--colortextheader:#FF82C0;
+ 
 }
 :root{
---fuente2: 'BioRhyme', serif;;
+--fuente2: 'BioRhyme', serif;
+--fuentelogo:'Arvo', serif;
 
 }

@@ -2,43 +2,55 @@
     display: flex;  
     flex-direction: column;
     position: absolute; 
-    margin-top: 90px;
+    margin-top: 190px;
     margin-left: 70px;
     text-align: center;
     font-weight: bold;
+         
 }
 p{
-   margin: 1px auto 1px;
-   font-family: var(--fuente2);     
+   margin: 0px auto 0px;
+   font-family: var(--fuentelogo);        
+   width: 350px;  
 }
 #a{  
-    color: var(--color2);
     font-family: var(--fuente2);
-    font-size: 2em;       
+    font-size: 2em; 
+    color: var(--coloriconos);
+    letter-spacing: .1em;
+       
 }    
 #b{
-    color: var(--color1);
+    color: var(--colorheader);
     font-size: 2em;
     border-bottom: 3px solid;
-    border-top: 3px solid;
-    text-shadow: 0 0 2px rgba(255, 255, 255, 0.5) ; 
-    -webkit-text-shadow: 0 0 2px rgba(255, 255, 255, 0.5) ; 
-	  -moz-text-shadow: 0 0 2px rgba(255, 255, 255, 0.5) ; 
+    border-top: 3px solid;    
+    color: var(--colortextheader);  
+     
+    letter-spacing: .2em;     
+     
 }
 #c{
-    color: var(--color2);
     font-family: var(--fuente2);  
-    font-size: 2em;    
+    font-size: 2em;   
+    color:var(--coloriconos);
+    letter-spacing: .1em;
+   
 }
 @media only screen and (max-device-width: 700px){
   .section {
-    margin-left: 70px;
+    margin-left: 30px;
+    margin-top: 150px;
+
+  }
+  p{
+    width: 200px;
   }
   #a{
     font-size: 1em;
   }
   #b{
-    font-size: 1em;
+    font-size: 1.5em;
   }
   #c{
     font-size: 1em;
